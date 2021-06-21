@@ -1,0 +1,161 @@
+#frame {
+  width: calc(100% + 28px);
+  margin-bottom: -28px;
+  margin-left: -28px;
+  height: calc(100% - 2.5rem + 28px);
+}
+
+.bottom-bar {
+  width: 100%;
+  height: 3rem;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-text {
+  position: fixed;
+  color: white;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  padding: 0.90rem 1rem;
+  cursor: pointer;
+}
+
+.footer-text:hover {
+  background: #1779ba !important;
+}
+
+.footer-left {
+  background: #1779ba;
+}
+
+.footer-right {
+  right: 0;
+}
+
+#searchbar {
+  margin-bottom:0;
+}
+
+.diseases {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#diseases-left {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: calc(100% - 5.5rem);
+}
+
+.related-diseases tr {
+  height: calc(100% - 2.5rem);
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+#table {
+  width: 100%;
+  margin:0;
+}
+
+#table td {
+  display: none;
+  color: black;
+}
+
+#table td:nth-child(1) {
+  display: block;
+}
+
+a, a:hover, a:focus, a:active {
+  color: inherit;
+}
+
+#synonyms {
+  float: left;
+  height: 100%;
+  color: grey;
+  padding: 0.5rem;
+}
+
+.disease {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.index {
+  padding-left: 0.5rem;
+  padding-right: 0;
+  height: 100%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.related-diseases td:nth-child(3) {
+  display: none;
+}
+
+#table td {
+  padding: 0;
+}
+
+#related-button {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 2.5rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.title-bar {
+  height: 2.5rem;
+  padding: 0;
+}
+
+.menu-icon {
+  margin: 0.75rem !important;
+}
+
+.title-bar-title {
+  float: left;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.show-for-large {
+  height: 100%;
+}
+
+.callout {
+  display: none;
+  width: 100%;
+  max-width: 30rem;
+  position: absolute;
+  top: calc(50% + 1.25rem);
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#load-more {
+  width: 100%;
+  margin: 0;
+}
+
+.related-diseases {
+  margin: 0;
+}
+
+.active {
+  display: table-row;
+}
